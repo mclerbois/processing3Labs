@@ -4,6 +4,7 @@
 
 
 - contenu du fichier defs.json
+```
 {
   "backGroundColor" : 200,
   "LedA": {
@@ -31,3 +32,4 @@
     "onImage": "swOn.png"
   }
 }
+```
