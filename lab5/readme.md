@@ -4,19 +4,19 @@ Exemple d'objet simulant le fonctionnement d'une diode led
   public <b>ledClass</b>(String ledOffFile, String ledOnFile) {... }
   
 - fonction de dessin
-  public void draw(int x,int y){...}
+  public void <b>draw</b>(int x,int y){...}
   
 - fonction pour allumer la diode led
-  public void on() {...}
+  public void <b>on</b>() {...}
     
 - fonction pour éteindre la diode led
-  public void off() {...}
+  public void <b>off</b>() {...}
   
 - fonction pour changer l'état de la diode led
-  public void toggle() {...}
+  public void <b>toggle</b>() {...}
     
 - fonction pour changer l'état la diode led
-  public void change(boolean newState) {...}
+  public void <b>change</b>(boolean newState) {...}
     
 - fonction pour lire l'état de la diode
-  public boolean state() {...}
+  public boolean <b>state</b>() {...}
