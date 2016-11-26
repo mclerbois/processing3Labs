@@ -1,0 +1,27 @@
+{
+  "backGroundColor" : 200,
+  "LedA": {
+    "x": 250,
+    "y": 100,
+    "offImage": "ledGreenOff8.png",
+    "onImage": "ledGreenOn8.png"
+  },
+  "LedB": {
+    "x": 280,
+    "y": 100,
+    "offImage": "ledGreenOff8.png",
+    "onImage": "ledGreenOn8.png"
+  },
+  "swA": {
+    "x": 10,
+    "y": 10,
+    "offImage": "swOff.png",
+    "onImage": "swOn.png"
+  },
+  "swB": {
+    "x": 110,
+    "y": 10,
+    "offImage": "swOff.png",
+    "onImage": "swOn.png"
+  }
+}
