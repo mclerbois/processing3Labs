@@ -1,0 +1,1 @@
+- Ajout de deux fonctions permettant de dessiner une image avec un valeur d'échelle et une valeur de rotation autour du centre de l'image.
