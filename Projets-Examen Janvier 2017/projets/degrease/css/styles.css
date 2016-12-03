@@ -1,0 +1,73 @@
+/* 
+    path: ./laboinfo2012/prj/ex3/styles.css
+    M. Clerbois 14-Oct-2012
+    Git: $Id$ 
+    GitBranch : origin/master
+
+    editeur de style
+    http://www.cssportal.com/css-style-editor/
+*/
+
+/* style du corps du document */
+body {
+    padding : 1em; 
+    margin : 1em; 
+    border-style : solid; 
+    border-width : 1px;
+    border-color : #000000;
+    background-color : #FFEED0;
+    font-family : sans-serif;
+    }
+
+/* style pour les <h1> dans <header> */
+header h1 {
+    font-family : cursive;
+    text-align  : center;
+    color : #CC2600;
+    }
+
+/* style pour les <p> dans <footer> */
+footer p {
+    font-style  : italic;
+    font-weight : bold;
+    }
+    
+#main p {
+    font-family : Verdana, sans-serif;
+    color : #002880;
+    }
+
+#main h3 {
+    margin-left : 5em;
+    color : #002880;
+    }
+
+span.number {
+    color : red;
+    }
+ 
+#container {
+    position: relative;
+    
+}
+
+#fixC, 
+#movC,
+#movC1,
+#movC2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#movC {
+    z-index: 1;
+}
+#movC1 {
+    z-index: 2;
+} 
+#movC2 {
+    z-index: 3;
+} 

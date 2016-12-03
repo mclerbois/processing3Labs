@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <!--  
+        path: ./laboinfo2012/prj/ex3/index.html
+        M. Clerbois 14-Oct-2012
+        Git: $Id$ 
+        GitBranch : origin/master 
+    -->
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+        <script type="text/javascript" src="../lib/prototype.js"></script>
+        <script type="text/javascript" src="../lib/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="../lib/runtime.js"></script>
+        <script type="text/javascript" src="../lib/canvasObjClass.js"></script>
+        <script type="text/javascript" src="../lib/images.js"></script>
+        <script type="text/javascript" src="../lib/projectContainer.js"></script>
+        <script type="text/javascript" src="../lib/scheduler.js"></script>
+        <script type="text/javascript" src="../lib/plc.js"></script>
+        
+        <script type="text/javascript" src="./plcProgram.js"></script>
+        <script type="text/javascript" src="./main.js"></script>
+       
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Titre de l'exercice</h1>  <!-- modifiez le titre -->
+            <hr>
+        </header>
+        <!-- la zone canevas permet de dessiner des formes géométriques -->
+        <div id="container">
+            <div id="fixC">
+                <canvas id="fixCanvas"></canvas>
+            </div>
+            <div id="movC">
+                <canvas id="movCanvas"></canvas>
+            </div>
+            <div id="movC1">
+                <canvas id="movCanvas1"></canvas>
+            </div>
+            <div id="movC2">
+                <canvas id="movCanvas2"></canvas>
+            </div>
+        </div>
+        <footer>
+            <hr>
+            <p>Auteur : <span id="auteur">John Doe</span></p> <!-- Remplacez John Doe par vos noms -->
+        </footer><span id="dummy1"></span>
+    </body>
+</html>
